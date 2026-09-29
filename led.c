@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
 	while(true)
 	{
 		last_char = getchar();
-		if(last_char == '')
+		if(last_char == '\x11')
 		{
 			break;
 		}
